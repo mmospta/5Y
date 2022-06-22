@@ -15,8 +15,6 @@ class ViewController: UIViewController {
 //    tableview.delegate = self
     tableview.dataSource = self
     tableview.register(UINib(nibName: "TileTableViewCell", bundle: nil), forCellReuseIdentifier: "TileTableViewCell")
-//    tableview.contentInset = UIEdgeInsets(top: 0, left: 16, bottom: 16, right: 16)
-//    tableview.contentInset = UIEdgeInsets(top: 0, left: 16, bottom: 16, right: 16)
   }
 }
 
