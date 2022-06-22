@@ -13,6 +13,8 @@
 		8D42764F28622C0700DA523B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D42764D28622C0700DA523B /* Main.storyboard */; };
 		8D42765128622C0A00DA523B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D42765028622C0A00DA523B /* Assets.xcassets */; };
 		8D42765428622C0A00DA523B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D42765228622C0A00DA523B /* LaunchScreen.storyboard */; };
+		8DEF30FF2862B86E00F7510C /* TileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF30FD2862B86E00F7510C /* TileTableViewCell.swift */; };
+		8DEF31002862B86E00F7510C /* TileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DEF30FE2862B86E00F7510C /* TileTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8D42765028622C0A00DA523B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D42765328622C0A00DA523B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D42765528622C0A00DA523B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DEF30FD2862B86E00F7510C /* TileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileTableViewCell.swift; sourceTree = "<group>"; };
+		8DEF30FE2862B86E00F7510C /* TileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TileTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		8D42764628622C0700DA523B /* 5Y */ = {
 			isa = PBXGroup;
 			children = (
+				8DEF30FC2862B83C00F7510C /* Cell */,
 				8D42764728622C0700DA523B /* AppDelegate.swift */,
 				8D42764928622C0700DA523B /* SceneDelegate.swift */,
 				8D42764B28622C0700DA523B /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				8D42765528622C0A00DA523B /* Info.plist */,
 			);
 			path = 5Y;
+			sourceTree = "<group>";
+		};
+		8DEF30FC2862B83C00F7510C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8DEF30FD2862B86E00F7510C /* TileTableViewCell.swift */,
+				8DEF30FE2862B86E00F7510C /* TileTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 				8D42765428622C0A00DA523B /* LaunchScreen.storyboard in Resources */,
 				8D42765128622C0A00DA523B /* Assets.xcassets in Resources */,
 				8D42764F28622C0700DA523B /* Main.storyboard in Resources */,
+				8DEF31002862B86E00F7510C /* TileTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				8D42764C28622C0700DA523B /* ViewController.swift in Sources */,
 				8D42764828622C0700DA523B /* AppDelegate.swift in Sources */,
 				8D42764A28622C0700DA523B /* SceneDelegate.swift in Sources */,
+				8DEF30FF2862B86E00F7510C /* TileTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +305,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 5Y/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -316,6 +333,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 5Y/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
